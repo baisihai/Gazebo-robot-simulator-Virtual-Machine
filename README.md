@@ -6,7 +6,7 @@
 User ID: ai-user<br />
 Password: ai-user<br />
 
-Environment
+This is a Oracle VM VirtualBox containing the following environment:
 - Oracle VM VirtualBox
 - ROS noetic
 - Python 3.8
@@ -33,15 +33,15 @@ In order to control the simulated OpenMANipulator-x,<br />
 	<b>1b) keyboard remote operation<br /></b>
 	roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch<br />
 <br />
-<p>
+<br />
 <b>2) Braccio Robot Simulator<br /></b>
 roslaunch braccio_moveit_gazebo rviz_connected_with_gz_using_moveit.launch<br />
 rosrun braccio_moveit_gazebo target_object_sim.py<br />
 <br />
-</p>
-<p>
+<br />
 <b>3) Intel RealSense D415<br /></b>
 roslaunch realsense2_description view_d415_model_rviz_gazebo.launch<br />
+<br />
 <br />
 <b>4) Intel RealSense D435<br /></b>
 roslaunch realsense2_description view_d435_model_rviz_gazebo.launch<br />
