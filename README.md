@@ -1,7 +1,7 @@
 # Gazebo-robot-simulator-Virtual-Machine
 
 ***********************************************************************************************************
-Ubuntu 20.04
+<b>Ubuntu 20.04</b>
 ***********************************************************************************************************
 User ID: ai-user<br />
 Password: ai-user<br />
@@ -17,7 +17,7 @@ Environment
 - Intel RealSense D435 model 
 
 ***********************************************************************************************************
-Start the simulator by running each command in its own terminal.
+<b>Start the simulator by running each command in its own terminal.</b>
 ***********************************************************************************************************
 <p>
 <b>1) Open Manipulator Robot Simulator<br /></b>
@@ -37,16 +37,14 @@ In order to control the simulated OpenMANipulator-x,<br />
 <br />
 </p>
 <p>
-2) Braccio Robot Simulator<br />
+<b>2) Braccio Robot Simulator<br /></b>
 roslaunch braccio_moveit_gazebo rviz_connected_with_gz_using_moveit.launch<br />
 rosrun braccio_moveit_gazebo target_object_sim.py<br />
 <br />
 </p>
 <p>
-3) Intel RealSense D415<br />
+<b>3) Intel RealSense D415<br /></b>
 roslaunch realsense2_description view_d415_model_rviz_gazebo.launch<br />
 <br />
-<p>
-4) Intel RealSense D435<br />
+<b>4) Intel RealSense D435<br /></b>
 roslaunch realsense2_description view_d435_model_rviz_gazebo.launch<br />
-</p>
