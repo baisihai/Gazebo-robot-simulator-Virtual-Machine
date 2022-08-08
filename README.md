@@ -1,6 +1,7 @@
 # Gazebo-robot-simulator-Virtual-Machine
 
-##Ubuntu 20.04
+***********************************************************************************************************
+Ubuntu 20.04
 ***********************************************************************************************************
 User ID: ai-user<br />
 Password: ai-user<br />
@@ -16,16 +17,15 @@ Environment
 - Intel RealSense D435 model 
 
 ***********************************************************************************************************
-##Start the simulator by running each command in its own terminal.
+Start the simulator by running each command in its own terminal.
 ***********************************************************************************************************
 <p>
-###1) Open Manipulator Robot Simulator<br />
+1) Open Manipulator Robot Simulator<br />
 roscore<br />
 roslaunch open_manipulator_gazebo open_manipulator_gazebo.launch<br />
 roslaunch open_manipulator_controller open_manipulator_controller.launch use_platform:=false<br />
 </p>
 <p>
-	
 In order to control the simulated OpenMANipulator-x,<br />
 	1a) start the OpenMANipulator control GUI<br />
 	roslaunch open_manipulator_control_gui open_manipulator_control_gui.launch<br />
@@ -33,9 +33,7 @@ In order to control the simulated OpenMANipulator-x,<br />
 	OR  <br />
 	<br />
 	1b) keyboard remote operation<br />
-</p>
-<p>
-	roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch
+	roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch<br />
 </p>
 <p>
 2) Braccio Robot Simulator
