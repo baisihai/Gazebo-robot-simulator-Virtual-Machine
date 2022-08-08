@@ -25,13 +25,15 @@ roslaunch open_manipulator_gazebo open_manipulator_gazebo.launch<br />
 roslaunch open_manipulator_controller open_manipulator_controller.launch use_platform:=false<br />
 <br />
 In order to control the simulated OpenMANipulator-x,<br />
-&nbsp&nbsp&nbsp&nbsp&nbsp<b>1a) start the OpenMANipulator control GUI<br /></b>
+<p> 
+	<b>1a) start the OpenMANipulator control GUI<br /></b>
 	roslaunch open_manipulator_control_gui open_manipulator_control_gui.launch<br />
 	<br />
 	OR  <br />
 	<br />
 	<b>1b) keyboard remote operation<br /></b>
 	roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch<br />
+</p>
 <br />
 <br />
 <b>2) Braccio Robot Simulator<br /></b>
