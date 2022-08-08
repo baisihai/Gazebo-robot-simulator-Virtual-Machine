@@ -59,6 +59,8 @@ In order to control the simulated OpenMANipulator-x,
 </p>
 <p>
 roslaunch braccio_moveit_gazebo rviz_connected_with_gz_using_moveit.launch
+</p>
+<p>
 rosrun braccio_moveit_gazebo target_object_sim.py
 </p>
 <p>
