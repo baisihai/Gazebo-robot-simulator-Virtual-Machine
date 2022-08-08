@@ -19,23 +19,20 @@ Environment
 ***********************************************************************************************************
 <b>Start the simulator by running each command in its own terminal.</b>
 ***********************************************************************************************************
-<p>
 <b>1) Open Manipulator Robot Simulator<br /></b>
 roscore<br />
 roslaunch open_manipulator_gazebo open_manipulator_gazebo.launch<br />
 roslaunch open_manipulator_controller open_manipulator_controller.launch use_platform:=false<br />
-</p>
-<p>
+<br />
 In order to control the simulated OpenMANipulator-x,<br />
-	1a) start the OpenMANipulator control GUI<br />
+	<b>1a) start the OpenMANipulator control GUI<br /></b>
 	roslaunch open_manipulator_control_gui open_manipulator_control_gui.launch<br />
 	<br />
 	OR  <br />
 	<br />
-	1b) keyboard remote operation<br />
+	<b>1b) keyboard remote operation<br /></b>
 	roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch<br />
 <br />
-</p>
 <p>
 <b>2) Braccio Robot Simulator<br /></b>
 roslaunch braccio_moveit_gazebo rviz_connected_with_gz_using_moveit.launch<br />
