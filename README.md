@@ -41,13 +41,12 @@ In order to control the simulated OpenMANipulator-x,
 2) Braccio Robot Simulator
 roslaunch braccio_moveit_gazebo rviz_connected_with_gz_using_moveit.launch
 rosrun braccio_moveit_gazebo target_object_sim.py
-
-
+</p>
+<p>
 3) Intel RealSense D415
 roslaunch realsense2_description view_d415_model_rviz_gazebo.launch
-
-
+</p>
+<p>
 4) Intel RealSense D435
 roslaunch realsense2_description view_d435_model_rviz_gazebo.launch
 </p>
-
