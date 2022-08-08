@@ -1,9 +1,9 @@
 # Gazebo-robot-simulator-Virtual-Machine
 
-<details open>
 ***********************************************************************************************************
 Ubuntu 20.04
 ***********************************************************************************************************
+<details open>
 User ID: ai-user
 Password: ai-user
 
@@ -17,11 +17,11 @@ Environment
 - Intel RealSense D415 model 
 - Intel RealSense D435 model 
 
-
+</details>
 ***********************************************************************************************************
 Start the simulator by running each command in its own terminal.
 ***********************************************************************************************************
-
+<details open>
 1) Open Manipulator Robot Simulator
 roscore
 roslaunch open_manipulator_gazebo open_manipulator_gazebo.launch
