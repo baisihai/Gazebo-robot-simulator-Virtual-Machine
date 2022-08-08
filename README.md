@@ -5,10 +5,14 @@ Ubuntu 20.04
 ***********************************************************************************************************
 <p>
 User ID: ai-user
+</p>
+<p>
 Password: ai-user
+</p>
 
+<p>
 Environment
-- Ubuntu 20.04
+- Oracle VM VirtualBox
 - ROS noetic
 - Python 3.8
 - Gazebo 
