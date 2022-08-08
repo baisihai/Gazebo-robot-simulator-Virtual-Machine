@@ -26,17 +26,29 @@ Start the simulator by running each command in its own terminal.
 <p>
 1) Open Manipulator Robot Simulator
 </p>
+<p>
 roscore
+</p>
+<p>
 roslaunch open_manipulator_gazebo open_manipulator_gazebo.launch
+</p>
+<p>
 roslaunch open_manipulator_controller open_manipulator_controller.launch use_platform:=false
-
+</p>
+<p>
 In order to control the simulated OpenMANipulator-x,
+</p>
+<p>
 	1a) start the OpenMANipulator control GUI
 	roslaunch open_manipulator_control_gui open_manipulator_control_gui.launch
-
+</p>
+<p>
 	OR  
+</p>
+<p>
 	1b) keyboard remote operation
 	roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch
+</p>
 <p>
 2) Braccio Robot Simulator
 </p>
