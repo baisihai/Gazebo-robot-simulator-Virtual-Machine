@@ -34,6 +34,7 @@ In order to control the simulated OpenMANipulator-x,<br />
 	<br />
 	1b) keyboard remote operation<br />
 	roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch<br />
+<br />
 </p>
 <p>
 2) Braccio Robot Simulator
