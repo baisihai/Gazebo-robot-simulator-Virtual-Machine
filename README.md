@@ -10,7 +10,6 @@ User ID: ai-user
 Password: ai-user
 </p>
 
-<p>
 Environment
 - Oracle VM VirtualBox
 - ROS noetic
@@ -20,8 +19,6 @@ Environment
 - Braccio gazebo model
 - Intel RealSense D415 model 
 - Intel RealSense D435 model 
-
-</p>
 
 ***********************************************************************************************************
 Start the simulator by running each command in its own terminal.
