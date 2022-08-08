@@ -3,7 +3,7 @@
 ***********************************************************************************************************
 Ubuntu 20.04
 ***********************************************************************************************************
-<details open>
+<p>
 User ID: ai-user
 Password: ai-user
 
@@ -17,11 +17,12 @@ Environment
 - Intel RealSense D415 model 
 - Intel RealSense D435 model 
 
-</details>
+</p>
+
 ***********************************************************************************************************
 Start the simulator by running each command in its own terminal.
 ***********************************************************************************************************
-<details open>
+<p>
 1) Open Manipulator Robot Simulator
 roscore
 roslaunch open_manipulator_gazebo open_manipulator_gazebo.launch
@@ -47,5 +48,5 @@ roslaunch realsense2_description view_d415_model_rviz_gazebo.launch
 
 4) Intel RealSense D435
 roslaunch realsense2_description view_d435_model_rviz_gazebo.launch
-</details>
+</p>
 
