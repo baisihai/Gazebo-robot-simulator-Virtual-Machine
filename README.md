@@ -40,7 +40,9 @@ roslaunch open_manipulator_controller open_manipulator_controller.launch use_pla
 In order to control the simulated OpenMANipulator-x,
 </p>
 <p>
-	> 1a) start the OpenMANipulator control GUI
+	1a) start the OpenMANipulator control GUI
+</p>
+<p>
 	roslaunch open_manipulator_control_gui open_manipulator_control_gui.launch
 </p>
 <p>
@@ -48,6 +50,8 @@ In order to control the simulated OpenMANipulator-x,
 </p>
 <p>
 	1b) keyboard remote operation
+</p>
+<p>
 	roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch
 </p>
 <p>
