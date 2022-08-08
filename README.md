@@ -24,16 +24,10 @@ Environment
 Start the simulator by running each command in its own terminal.
 ***********************************************************************************************************
 <p>
-1) Open Manipulator Robot Simulator
-</p>
-<p>
-roscore
-</p>
-<p>
-roslaunch open_manipulator_gazebo open_manipulator_gazebo.launch
-</p>
-<p>
-roslaunch open_manipulator_controller open_manipulator_controller.launch use_platform:=false
+1) Open Manipulator Robot Simulator<br />
+roscore<br />
+roslaunch open_manipulator_gazebo open_manipulator_gazebo.launch<br />
+roslaunch open_manipulator_controller open_manipulator_controller.launch use_platform:=false<br />
 </p>
 <p>
 	
