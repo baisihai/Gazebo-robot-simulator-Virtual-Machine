@@ -36,6 +36,7 @@ roslaunch open_manipulator_gazebo open_manipulator_gazebo.launch
 roslaunch open_manipulator_controller open_manipulator_controller.launch use_platform:=false
 </p>
 <p>
+	
 In order to control the simulated OpenMANipulator-x,
 </p>
 <p>
