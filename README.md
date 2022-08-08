@@ -1,6 +1,6 @@
 # Gazebo-robot-simulator-Virtual-Machine
 
-
+<details open>
 ***********************************************************************************************************
 Ubuntu 20.04
 ***********************************************************************************************************
@@ -47,4 +47,5 @@ roslaunch realsense2_description view_d415_model_rviz_gazebo.launch
 
 4) Intel RealSense D435
 roslaunch realsense2_description view_d435_model_rviz_gazebo.launch
+</details>
 
