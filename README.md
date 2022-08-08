@@ -36,8 +36,8 @@ In order to control the simulated OpenMANipulator-x,
 	OR  
 	1b) keyboard remote operation
 	roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch
-
-
+</p>
+<p>
 2) Braccio Robot Simulator
 roslaunch braccio_moveit_gazebo rviz_connected_with_gz_using_moveit.launch
 rosrun braccio_moveit_gazebo target_object_sim.py
